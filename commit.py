@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
-"""Add the next edit batch"""
+"""Commit the next edit batch"""
 
 import subprocess
 
-p = subprocess.run(
-    ["git", "log", "-1", "--pretty=%B"],
-    capture_output=True,
-    text=True,
-)
-num = int(p.stdout.removeprefix("ddsl")) + 1
+def main():
+    p = subprocess.run(
+        ["git", "log", "-1", "--pretty=%B"],
+        capture_output=True,
+        text=True,
+    )
+    num = int(p.stdout.removeprefix("ddsl")) + 1
+    subprocess.run(["git", "commit", "-a", "-m", f"ddsl{num}"])
+    subprocess.run(['git', 'push'])
 
-subprocess.run(["git", "commit", "-a", "-m", f"ddsl{num}"])
+
+if __name__ == '__main__':
+    main()
