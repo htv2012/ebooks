@@ -9,8 +9,8 @@ def main():
         capture_output=True,
         text=True,
     )
-    num = int(p.stdout.removeprefix("ddsl")) + 1
-    subprocess.run(["git", "commit", "-a", "-m", f"ddsl{num}"])
+    num = int(p.stdout.removeprefix("ddsl").removeprefix("batch ")) + 1
+    subprocess.run(["git", "commit", "-a", "-m", f"batch {num}"])
     subprocess.run(['git', 'push'])
 
 
