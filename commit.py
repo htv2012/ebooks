@@ -2,12 +2,13 @@
 """Commit the next edit batch"""
 
 from subprocess import run
+import datetime
 
 
 def main():
-    p = run(["git", "log", "-1", "--pretty=%B"], capture_output=True)
-    num = int(p.stdout.removeprefix(b"batch ")) + 1
-    run(["git", "commit", "-a", "-m", f"batch {num}"])
+    now = datetime.datetime.now()
+    message = now.strftime('Batch %Y-%m-%d %H:%M')
+    run(["git", "commit", "-a", "-m", message])
     run(["git", "push"])
 
 
