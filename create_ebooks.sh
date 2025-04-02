@@ -10,3 +10,4 @@ create_ebook() {
 
 mkdir /tmp/ebooks
 create_ebook dai_duong_song_long
+create_ebook tam_tan_ky
