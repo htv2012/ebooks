@@ -19,7 +19,7 @@
     </navPoint>
     <navPoint id="6e549304-dd66-4005-bdb5-8aef5c38e477" playOrder="2">
       <navLabel>
-        <text>Chương 2: Nguyên lai ngươi là tiểu nữu</text>
+        <text>Chương 2: Nguyên lai ngươi là tiểu nữ</text>
       </navLabel>
       <content src="CucPhamGiaDinh_split_002.html"/>
     </navPoint>
@@ -229,7 +229,7 @@
     </navPoint>
     <navPoint id="234bf458-9031-4f9a-ac76-e28fceed7ed2" playOrder="37">
       <navLabel>
-        <text>Chương 37: Tần Tiên Nhân</text>
+        <text>Chương 37: Tần Tiên Nhi</text>
       </navLabel>
       <content src="CucPhamGiaDinh_split_037.html"/>
     </navPoint>
