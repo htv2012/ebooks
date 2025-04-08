@@ -8,6 +8,11 @@ create_ebook() {
     cd ..
 }
 
+rm -fr /tmp/ebooks
 mkdir /tmp/ebooks
-create_ebook dai_duong_song_long
-create_ebook tam_tan_ky
+cd src
+for d in *
+do
+    create_ebook "$d"
+done
+
