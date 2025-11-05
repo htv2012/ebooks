@@ -2,7 +2,8 @@
 
 create_ebook() {
     cd "$1"
-    name=$(date "+/tmp/ebooks/$1_%Y-%m-%d.epub")
+    #name=$(date "+/tmp/ebooks/$1_%Y-%m-%d.epub")
+    name="/tmp/ebooks/${1}.epub"
     rm -f "$name"
     zip -q -r "$name" *
     cd ..
