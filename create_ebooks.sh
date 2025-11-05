@@ -8,8 +8,8 @@ create_ebook() {
     cd ..
 }
 
-rm -fr /tmp/ebooks
-mkdir /tmp/ebooks
+rm -fr /tmp/ebooks/*
+mkdir -p /tmp/ebooks
 cd src
 for d in *
 do
