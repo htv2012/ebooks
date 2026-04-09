@@ -1,5 +1,5 @@
-<?xml version="1.0"  encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="uuid_id" xmlns="http://www.idpf.org/2007/opf">
   <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
     <dc:title>Tầm Tần Ký</dc:title>
     <dc:creator opf:role="aut" opf:file-as="Dị, Huỳnh">Huỳnh Dị</dc:creator>
@@ -12,6 +12,8 @@
     <meta name="calibre:timestamp" content="2021-07-18T16:10:36+00:00"/>
     <meta name="calibre:title_sort" content="Tầm Tần Ký"/>
     <meta name="cover" content="cover"/>
+    <meta name="Sigil version" content="2.7.6"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2026-04-07</dc:date>
   </metadata>
   <manifest>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
@@ -608,7 +610,7 @@
     <itemref idref="id11"/>
   </spine>
   <guide>
-    <reference type="toc" href="index_split_291.html#filepos7066374" title="Table of Contents"/>
-    <reference type="cover" href="titlepage.xhtml" title="Cover"/>
+    <reference type="toc" title="Table of Contents" href="index_split_291.html#filepos7066374"/>
+    <reference type="cover" title="Cover" href="titlepage.xhtml"/>
   </guide>
 </package>

@@ -1,3 +1,7 @@
+help:
+	@echo make commit
+	@echo make ebooks
+
 commit:
 	./commit.py
 
