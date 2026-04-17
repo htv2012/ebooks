@@ -17,3 +17,5 @@ do
     create_ebook "$d"
 done
 
+open /tmp/ebooks
+
