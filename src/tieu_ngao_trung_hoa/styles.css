@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", sans-serif; 
- margin-left: .5em;
-  margin-right: .5em;
+ margin-left:.5em;
+  margin-right:.5em;
   text-align: justify;
 }
 
@@ -62,7 +62,7 @@ font-style: normal;
 img {
     max-width:100%;
 }
-#html .t1 {
+#html.t1 {
     text-align: justify; margin-top: 12px; margin-bottom: 12px;
 }
 .t2 {
@@ -94,12 +94,12 @@ img {
 	font-style: italic;
 }
 #html h2, #html h3, #html h4{
-    margin-bottom: 48px !important;
+    margin-bottom: 48px!important;
 }
  h2 span{
     font-weight:normal;font-size:smaller;
 }
- .pic{
-    display: inline-block !important;
+.pic{
+    display: inline-block!important;
 }
 
