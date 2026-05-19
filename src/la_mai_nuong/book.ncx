@@ -51,7 +51,7 @@
 		</navPoint>
 
 		<navPoint id="chapter6" playOrder="6">
-			<navLabel><text>5. 5. Đánh Phường Lái Ngựạ, Hỏa Thiêu Kê Trảo Sơn</text></navLabel>
+			<navLabel><text>5. 5. Đánh Phường Lái Ngựa, Hỏa Thiêu Kê Trảo Sơn</text></navLabel>
 			<content src="Chapter0005.html" />
 		</navPoint>
 
