@@ -131,7 +131,7 @@
 		</navPoint>
 
 		<navPoint id="chapter22" playOrder="22">
-			<navLabel><text>21. 21. Nam Sơn Trấn, Miêu Thúy Hoa Cần Thiền Sư Giúp Sức</text></navLabel>
+			<navLabel><text>21. 21. Nam Sơn Trấn, Miêu Thúy Hoa Cần thiền sư Giúp Sức</text></navLabel>
 			<content src="Chapter0021.html" />
 		</navPoint>
 
