@@ -116,7 +116,7 @@
 		</navPoint>
 
 		<navPoint id="chapter19" playOrder="19">
-			<navLabel><text>18. 18. Tìm Dấu Kẻ Thù, Song Hiệp Một Phen Ra Quan Ngoại</text></navLabel>
+			<navLabel><text>18. 18. Tìm Dấu Kẻ Thù, song hiệp Một Phen Ra Quan Ngoại</text></navLabel>
 			<content src="Chapter0018.html" />
 		</navPoint>
 
