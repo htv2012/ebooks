@@ -1,0 +1,87 @@
+body {
+  font-family: "Arial", sans-serif; 
+ margin-left: .5em;
+  margin-right: .5em;
+  text-align: justify;
+}
+
+p {
+  font-size: 13pt;
+  margin-top: 0px;
+  margin-bottom: 1ex;
+}
+
+h1, h2 {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+h2 {
+    margin-top: -2px;
+    margin-bottom: 2px;
+}
+
+.sfont {font-size: 11px}
+
+ @font-face {
+ font-family: "Arial";
+ font-weight: normal;
+ font-style: normal;
+ src: url(arial.ttf);
+}
+
+ @font-face {
+ font-family: "Arial";
+ font-weight: normal;
+ font-style: italic;
+ src: url(ariali.ttf);
+}
+
+ @font-face {
+font-family: "Arial";
+font-weight: bold;
+font-style: normal;
+src: url(arialbd.ttf);
+}
+
+em, i {
+font-family: "Arial", sans-serif;
+font-weight: normal;
+font-style: italic;
+}
+
+strong, b {
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-style: normal;
+}
+img {
+    max-width:100%;
+}
+#html .t1 {
+    text-align: justify; margin-top: 12px; margin-bottom: 12px;
+}
+.t2 {
+    text-align: justify;text-indent: 32px; margin-top: 12px; margin-bottom: 12px;
+}
+.t3 {
+    text-align: center; margin-top: 12px; margin-bottom: 12px;
+}
+.t4 {
+    text-align: right; margin-top: 12px; margin-bottom: 12px;
+}
+.t5 {
+    margin-left: 32px; margin-top: 12px;
+ margin-bottom: 12px;
+}
+#html h2, #html h3, #html h4{
+    margin-bottom: 48px !important;
+}
+ h2 span{
+    font-weight:normal;font-size:smaller;
+}
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:opf="http://www.idpf.org/2007/opf"
+		xmlns:dcterms="http://purl.org/dc/terms/">
+		<dc:title>Dòng Mực Cũ</dc:title>
+		<dc:language>vi</dc:language>
+		<dc:identifier id="BookId" opf:scheme="URI">http://vietmessenger.com/books/?title=dongmuccu</dc:identifier>
+		<dc:description>Giữa thập niên 20, Vua Khải Định từ khi đi Pháp về lâm trọng bệnh đã băng hà lúc 41 tuổi. Khi làm Vua, Ông chỉ là bù nhìn tiêu biểu cho thực dân Pháp. Hoàng Vĩnh Thụy (Vua Bảo Đại) vốn người ngoại tộc, được Vua Khải Định nhận làm con lên nối ngôi mới 13 tuổi đang du học nơi "Mẫu Quốc" .
+Đầu thế kỷ 20 những phong trào đấu tranh giành độc lập không còn lấy triều đình làm điểm tựa, đã trở thành dĩ vãng. Nhiệm vụ chống thực dân đuổi Pháp là do quần chúng tự phát. Đặc biệt là những người theo tân học bùng lên khắp nơi, dưới nhiều hình thức khác nhau, đã ghi dấu một thời lẫm liệt pha lẫn với bi thương.
+Các cụ trên dưới "thất thập cổ lai hy" có thể am tường, nhưng còn thế hệ trẻ muốn tìm hiểu rõ hơn về thời thực dân phong kiến, các phong trào, đảng phái, nhất là:
+- Việt Nam Quốc Dân Đảng
+- Việt Nam Thanh Niên Đồng Chí Hội (sau đổi là Đảng Lao Động Việt Nam, Đảng Cộng Sản Đông Dương, Đảng Cộng Sản Việt Nam)
+Qua các tài liệu tác giả đã tham khảo như:
+- Việt Nam Quốc Dân Đảng (tác giả Hoàng Văn Đào)
+- Nguyễn Thái Học (tác giả Nhượng Tống)
+- Từ Thực Dân Đến Cộng Sản (tác giả Hoàng Văn Chí)
+- Kẻ Sĩ, 300 Năm Sài Gòn (tác giả Trần Bạch Đằng)
+- Việt Nam Những Ngày Lịch Sử (tác giả Nguyễn Tường Bách).
+Cuốn "Dòng Mực Củ" hay, cần được đọc do chủ yếu của tác giả viết về hai đảng nói trên nhưng được lòng trong những mối tình éo le của bốn nhân vật chính thật sôi nổi: Hậu và Kiệt, cùng Minh và Duyên.</dc:description>
+		<dc:publisher>Viet Messenger</dc:publisher>
+		<dc:relation>http://vietmessenger.com/</dc:relation>
+		<dc:creator opf:file-as="Nguyễn Ngọc Ngạn" opf:role="aut">Nguyễn Ngọc Ngạn</dc:creator>
+		<dc:date>2022-08-13T21:08:56.000000+00:00</dc:date>
+		<dc:source>http://vietmessenger.com/books/?title=dongmuccu</dc:source>
+		<meta name="cover" content="coverImage" />
+	</metadata>
+
+	<manifest>
+		<item id="coverPage" href="CoverPage.html" media-type="application/xhtml+xml" />
+		<item id="coverImage" href="images/dongmuccu.jpg" media-type="image/jpeg" />
+		<item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="css_css1" href="styles.css" media-type="text/css" />
+		<item id="chapter1" href="Cover.html" media-type="application/xhtml+xml" />
+		<item id="chapter2" href="Chapter0001.html" media-type="application/xhtml+xml" />
+		<item id="chapter3" href="Chapter0002.html" media-type="application/xhtml+xml" />
+		<item id="chapter4" href="Chapter0003.html" media-type="application/xhtml+xml" />
+		<item id="chapter5" href="Chapter0004.html" media-type="application/xhtml+xml" />
+		<item id="chapter6" href="Chapter0005.html" media-type="application/xhtml+xml" />
+		<item id="chapter7" href="Chapter0006.html" media-type="application/xhtml+xml" />
+		<item id="chapter8" href="Chapter0007.html" media-type="application/xhtml+xml" />
+		<item id="chapter9" href="Chapter0008.html" media-type="application/xhtml+xml" />
+		<item id="epub.embedded.font.arialbd" href="arialbd.ttf" media-type="font/opentype"/>
+		<item id="epub.embedded.font.ariali" href="ariali.ttf" media-type="font/opentype"/>
+		<item id="epub.embedded.font.arial" href="arial.ttf" media-type="font/opentype"/>
+	</manifest>
+
+	<spine toc="ncx">
+		<itemref idref="coverPage" linear="no" />
+		<itemref idref="chapter1" />
+		<itemref idref="chapter2" />
+		<itemref idref="chapter3" />
+		<itemref idref="chapter4" />
+		<itemref idref="chapter5" />
+		<itemref idref="chapter6" />
+		<itemref idref="chapter7" />
+		<itemref idref="chapter8" />
+		<itemref idref="chapter9" />
+	</spine>
+</package>
