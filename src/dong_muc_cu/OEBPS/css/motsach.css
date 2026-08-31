@@ -1,0 +1,248 @@
+body
+{
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif ;
+        font-size: 100%;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	letter-spacing: 0;
+}
+ul
+{
+	list-style-type: none;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+.italic
+{
+	font-style: italic; 
+}
+.ms_title, .epub_ms_title {
+    color: #000000;
+    font-size: 130%;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 7px;
+    font-family: Palatino Linotype, Tahoma, Geneva, sans-serif;
+}
+.epub_ms_author
+{
+	text-align: center;
+	font-style: italic;
+}
+
+.epub_ms_title
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.epub_motsach_info
+{
+    color: #888;
+    font-family: Palatino Linotype, Tahoma, Geneva, sans-serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 75%;
+}
+.epub_motsach_info a
+{
+    color: #888;
+    font-family: Palatino Linotype, Tahoma, Geneva, sans-serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 75%;
+}
+
+.ms_author
+{
+	margin: 5px 0 5px 0px;
+	font-weight:100;
+	font-size: 80%;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #777777;
+    line-height: 150%;	
+}
+
+.ms_chapter
+{
+	color:#C52929;
+	margin: 0 0 30px 0;
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 150%;
+}
+.ms_text, .ms_quote, .ms_highlight, .ms_text_b, .ms_text_i {
+	line-height: 140%;
+	color: #02081B;
+	text-align: justify;
+	padding-top: 10px;
+	font-family: Trebuchet,Verdana,Arial;
+}
+.ms_text_b {
+	font-weight: bold;
+}
+.ms_text_i {
+	font-style: italic;
+}
+.ms_highlight
+{
+	color: red !important;
+}
+.ms_quote
+{
+	color:#2B0E06;
+    text-align: justify;
+	padding-top: 10px;
+	font-style: italic;
+}
+.ms_focus
+{
+	font-weight: bold;
+    text-align: justify;
+	padding: 20px 0 0px 0;
+}
+.story_poem
+{
+    line-height: 130%;
+	font-style: italic;
+	color: #006600;
+}
+.poem_text
+{
+    line-height: 150%;
+	color:#1F0D33;
+}
+.poem_text_notes
+{
+	font-style: italic; 
+	padding-bottom: 10px;
+}
+
+.ms_end_note_title
+{
+	margin-top: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #777777;
+	font-weight: bolder;
+	line-height: 140%;
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;	
+    font-size: 80%;
+}
+.ms_end_note
+{
+	margin-top: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #777777;
+	line-height: 140%;
+    font-size: 75%;
+    text-align: justify;
+}
+.ms_note
+{
+	margin-top: 15px;
+	color: #777777;
+	font-style: italic;
+}
+.ms_break {
+	text-align:center;
+	margin:10px 0;
+}
+
+.epub_ms_qr
+{
+	width: 100%;
+	margin-top: 30px;
+	text-align:center;
+}
+.epub_ms_qr img
+{
+	display: inline;
+	text-align: center;
+}
+/* copy from motsach.info end ----------------------------------- */
+
+
+.firstletter {
+	float: left;
+	font-size: 3em;
+	line-height: 1;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#dropcap
+{
+	height: 196px;
+	width: 136px;
+	margin-top: -50px;
+	float: left;
+	background-position: 0 0;
+    background-repeat: no-repeat;	
+}
+.dropcap_0 {background-image: url(../images/0.gif);}
+.dropcap_1 {background-image: url(../images/1.gif);}
+.dropcap_2 {background-image: url(../images/2.gif);}
+.dropcap_3 {background-image: url(../images/3.gif);}
+.dropcap_4 {background-image: url(../images/4.gif);}
+.dropcap_5 {background-image: url(../images/5.gif);}
+.dropcap_6 {background-image: url(../images/6.gif);}
+.dropcap_7 {background-image: url(../images/7.gif);}
+.dropcap_8 {background-image: url(../images/8.gif);}
+.dropcap_9 {background-image: url(../images/9.gif);}
+.dropcap_A {background-image: url(../images/A.gif);}
+.dropcap_B {background-image: url(../images/B.gif);}
+.dropcap_C {background-image: url(../images/C.gif);}
+.dropcap_D {background-image: url(../images/D.gif);}
+.dropcap_E {background-image: url(../images/E.gif);}
+.dropcap_F {background-image: url(../images/F.gif);}
+.dropcap_G {background-image: url(../images/G.gif);}
+.dropcap_H {background-image: url(../images/H.gif);}
+.dropcap_I {background-image: url(../images/I.gif);}
+.dropcap_J {background-image: url(../images/J.gif);}
+.dropcap_K {background-image: url(../images/K.gif);}
+.dropcap_L {background-image: url(../images/L.gif);}
+.dropcap_M {background-image: url(../images/M.gif);}
+.dropcap_N {background-image: url(../images/N.gif);}
+.dropcap_O {background-image: url(../images/O.gif);}
+.dropcap_P {background-image: url(../images/P.gif);}
+.dropcap_Q {background-image: url(../images/Q.gif);}
+.dropcap_R {background-image: url(../images/R.gif);}
+.dropcap_S {background-image: url(../images/S.gif);}
+.dropcap_T {background-image: url(../images/T.gif);}
+.dropcap_U {background-image: url(../images/U.gif);}
+.dropcap_V {background-image: url(../images/V.gif);}
+.dropcap_W {background-image: url(../images/W.gif);}
+.dropcap_X {background-image: url(../images/X.gif);}
+.dropcap_Y {background-image: url(../images/Y.gif);}
+.dropcap_Z {background-image: url(../images/Z.gif);}
+.dropcap_0 {background-image: url(../images/0.gif);}
+.dropcap_1 {background-image: url(../images/1.gif);}
+.dropcap_2 {background-image: url(../images/2.gif);}
+.dropcap_3 {background-image: url(../images/3.gif);}
+.dropcap_4 {background-image: url(../images/4.gif);}
+.dropcap_5 {background-image: url(../images/5.gif);}
+.dropcap_6 {background-image: url(../images/6.gif);}
+.dropcap_7 {background-image: url(../images/7.gif);}
+.dropcap_8 {background-image: url(../images/8.gif);}
+.dropcap_9 {background-image: url(../images/9.gif);}
+
+span.hidden
+{
+	color: white;
+}
+.poem_break, .lyrics_break
+{
+	line-height: 50%;
+}
+.poem_breaks, .lyrics_break
+{
+	line-height: 100%;
+}

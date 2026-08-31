@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta name="dtb:uid" content="http://isach.info/story.php?story=dong_muc_cu__nguyen_ngoc_ngan" /><meta name="dtb:depth" content="0" />
+<meta name="dtb:totalPageCount" content="0" />
+<meta name="dtb:maxPageNumber" content="0" />
+</head>
+<docTitle>
+<text>Dòng Mực Cũ</text>
+</docTitle>
+<navMap>
+
+<navPoint id="cover" playOrder="1"><navLabel><text>Bìa</text></navLabel><content src="cover.html" /></navPoint>
+
+<navPoint id="title" playOrder="2"><navLabel><text>Tựa đề</text></navLabel><content src="title.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0001" playOrder="3"><navLabel><text>Chương 1</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0001.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0002" playOrder="4"><navLabel><text>Chương 2</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0002.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0003" playOrder="5"><navLabel><text>Chương 3</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0003.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0004" playOrder="6"><navLabel><text>Chương 4</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0004.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0005" playOrder="7"><navLabel><text>Chương 5</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0005.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0006" playOrder="8"><navLabel><text>Chương 6</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0006.html" /></navPoint>
+
+<navPoint id="chapter_dong_muc_cu__nguyen_ngoc_ngan_0007" playOrder="9"><navLabel><text>Chương 7</text></navLabel><content src="text/dong_muc_cu__nguyen_ngoc_ngan_0007.html" /></navPoint>
+</navMap>
+</ncx>
